@@ -1,0 +1,3 @@
+Compiling requires you point to all involved files.
+
+g++ -o addition -combine main.cpp add.cpp

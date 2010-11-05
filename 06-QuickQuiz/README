@@ -1,0 +1,7 @@
+http://www.learncpp.com/cpp-tutorial/111-comprehensive-quiz/
+
+1) Write a program that reads two numbers from the user, adds them together, and then outputs the answer. The program should use two functions: A function named ReadNumber() should be used to get an integer from the user, and a function named “WriteAnswer” should be used to output the answer. You do not need to write a function to do the adding.
+
+2) Modify the program you wrote in #1 so that the function to read a number from the user and the function to output the answer are in a separate file called “io.cpp”. Use a forward declaration to access them from your main() function, which should live in “main.cpp”.
+
+3) Modify the program you wrote in #2 so that it uses a header file to access the functions instead of forward declarations. Make sure your header file uses header guards.
